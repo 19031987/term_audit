@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "rejectedReasonType",
+            "otherEntityName": "rejectedReasonType",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "reasonTypes",
+            "otherEntityName": "rejectedReasonType",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "fkreasonType",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "rejectReasons",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170814182659",
+    "entityTableName": "rejected_reasons",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "no",
+    "angularJSSuffix": "mySuffix"
+}

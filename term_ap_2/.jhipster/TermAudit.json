@@ -1,0 +1,171 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mobilenumber",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "termno",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "state",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "connection",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "connectiontype",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "barcode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nameofcustomer",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "fathername",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "doa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "aoname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "checkavailabiltyofcaf",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photo",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "identityproof",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressproof",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "auditdate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "auditby",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "caf",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "activationdate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "activationsource",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "vendor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dob",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "customernamestatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "fathernamestatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "doastatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "aonamestatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "identityproofstatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "addressproofstatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "rejectedreason",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "typeofdoc",
+            "fieldType": "Typeofdoc",
+            "fieldValues": "original,filenet,xerox,filenetororiginal"
+        },
+        {
+            "fieldName": "pointsalecode",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "pointsalenamestatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "pointsaleaddressstatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "checkcafstatus",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "secauditdate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20170814182700",
+    "dto": "mapstruct",
+    "service": "no",
+    "entityTableName": "term_audit",
+    "pagination": "pagination",
+    "angularJSSuffix": "mySuffix"
+}
